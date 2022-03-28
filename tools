@@ -5,8 +5,16 @@ okular and zathura = to open any document i.e pdf,txt etc
 vifm = file manager for vim
 ranger = same as vifm but has preview feature for icons,images and video
 screenkey = screencast tool to display keystrokes
-screenfetch = shows desktop environment info in details
+screenfetch = shows desktop environment info in details ----- alternative is neofetch
 vlock = locks your virtual terminal session useful for security in multiuser mode
 slock = screen locker 
 tmux and terminator = multiple terminator in one window 
 figlet =  Make large character ASCII banners out of ordinary or big
+
+
+
+
+
+---------------------config screensaver lock within terminal----------------
+gsettings set org.gnome.desktop.screensaver lock-enabled true/false
+
